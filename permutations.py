@@ -7,6 +7,8 @@ n = math.factorial(5)
 matrix = [[list() for i in range(n)] for j in range(n)]
 permutations = list(itertools.permutations([1, 2, 3, 4, 5]))
 
+print("Hello World!")
+
 for i in range(n):
   for j in range(n):
     aux = []
